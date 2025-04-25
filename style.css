@@ -16,6 +16,13 @@ body{
     flex-direction: column;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 90vw;
+
+}
+
 header{
     background-color: aqua;
 }
