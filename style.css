@@ -20,18 +20,33 @@ body{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     width: 90vw;
-
+    margin: auto;
 }
 
 header{
     background-color: aqua;
+    margin-top: 70px;
+}
+
+header a{  /* Corrigido de .header para header */
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main{
     background-color: tomato;
-    flex-grow: 3;
+    flex-grow: 1;
 }
 
 footer{
     background-color: pink;
+    margin-bottom: 24px;
 }
