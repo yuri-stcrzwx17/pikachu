@@ -12,6 +12,8 @@
 body{
     height: 100vh;
     background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -20,6 +22,7 @@ header{
 
 main{
     background-color: tomato;
+    flex-grow: 3;
 }
 
 footer{
