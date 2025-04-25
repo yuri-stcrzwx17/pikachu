@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+:root{
+    --primary-color: #F5CF06;
+    --secondary-color: #8E4106;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+header{
+    background-color: aqua;
+}
+
+main{
+    background-color: tomato;
+}
+
+footer{
+    background-color: pink;
+}
