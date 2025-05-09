@@ -46,6 +46,21 @@ main{
     flex-grow: 1;
 }
 
+.title{
+    background-color: green;
+    grid-column: 1/-1;
+}
+
+.description{
+    background-color: plum;
+    grid-column: 1/7;
+}
+
+.action{
+    background-color: aqua;
+    grid-column: 7/-1;
+}
+
 footer{
     background-color: pink;
     margin-bottom: 24px;
